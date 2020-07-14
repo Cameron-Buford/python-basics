@@ -68,3 +68,37 @@ print(course.find('b'))
 
 
 print(course.replace('beginners', 'noobs'))
+
+
+# to check if there is a specific thing in a string and returns it as a boolean
+print('python' in course)
+
+# integers
+
+#goes by order of operations but calls it operator prececdent. exponentials run first, then multiplication and division and then subtraction and addition
+
+
+
+# if statements
+
+is_hot = False
+is_cold = False
+
+if is_hot:
+    print("it is a hot day")
+    print("drink plenty of water")
+elif is_cold:
+    print('its a cold day')
+    print('wear warm clothes')
+else:
+    print("its a lovely day")
+print("enjoy your day")
+
+price = 1000000
+has_good_credit = True
+
+if has_good_credit:
+    down_payment = 0.1 * price
+else:
+    down_payment = 0.2 * price
+print(f"Down payment: {down_payment}")

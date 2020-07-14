@@ -102,3 +102,22 @@ if has_good_credit:
 else:
     down_payment = 0.2 * price
 print(f"Down payment: {down_payment}")
+
+
+has_high_income = True
+has_good_credit = True
+
+if has_high_income and has_good_credit:
+    print('eligible for loan')
+
+# conditional operators: and, or, not
+
+
+weight = int(input('Weight: '))
+unit = input('(L)bs or (K)g: ')
+if unit.upper() == "L":
+    converted = weight * 0.45
+    print(f"You are {converted} kilos")
+else:
+    converted = weight / 0.45
+    print(f"You are {converted} pounds")
